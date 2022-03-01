@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+
+
+
+
+em {
+    background-color: black;
+    color: red;
+}
+
+h1 {
+    color: rgb(255, 92, 119);
+    margin-bottom: 0px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+
+}
+
+.text {
+    margin-block-start: 0em !important;
+    margin-block-end: 0.83em;
+}
+
+strong {
+    font-weight: bold;
+}
+
+p {
+    border: 3px solid rgb(255, 197, 111); 
+    padding: 20px;
+    border-radius: 5px;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.background {
+    background-image: url(download.jpg) ;
+    width: 100vw;
+    height: 100vh;
+    background-position: center; 
+    object-fit: cover;   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.thediv {
+    margin: 100px auto;
+    width: 500px;
+    background-color: rgba(255, 235, 205, 0.651);
+    padding: 16px 32px;
+    border-radius: 20px;
+    box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
