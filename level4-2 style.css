@@ -1,0 +1,35 @@
+@import url('https://fonts.google.com/specimen/Dancing+Script#standard-styles');
+
+.border{
+    border-left: 10px double rgb(0, 255, 242);
+    margin: 10px;
+    padding: 50px;
+}
+
+.font{
+    color: crimson;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: xx-small;
+    text-transform: capitalize;
+    display: block;
+  
+}
+
+.back{
+    background-color: rgb(255, 153, 0);
+    margin: 80px;
+    border-radius: 800px;
+    letter-spacing: 10px;
+
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aqua;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: hotpink;
+}
+

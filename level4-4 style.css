@@ -1,0 +1,30 @@
+.the{
+    background-color: #26f7d4;
+    margin: 80px;
+    padding: 20%;
+    color: thistle;
+    border-radius: 50px;
+    letter-spacing: 4px;
+}
+.hidden{
+    visibility: hidden;
+}
+
+h1{
+    color: lightpink;
+    font-family: fantasy;
+    font-weight: 700;
+    font-size: 3cm;
+    text-transform: capitalize;
+}
+
+h2{
+    color: lightgoldenrodyellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+}
+
+.background{
+    text-shadow: 10px;
+    font-size: 30px;
+}

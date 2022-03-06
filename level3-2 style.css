@@ -1,0 +1,28 @@
+.back{
+    background-color: rgb(255, 153, 0);
+    margin: 80px;
+    border-radius: 800px;
+
+}
+
+h1{
+  
+    padding: 100px;
+    color: #ff3eef;
+}
+
+h2{
+    padding:50px;
+    color: greenyellow;
+}
+
+.fontcolour{
+    color: crimson;
+}
+
+.border{
+    border-left: 10px double rgb(0, 255, 242);
+    margin: 10px;
+    padding: 50px;
+}
+

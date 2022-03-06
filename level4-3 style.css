@@ -1,0 +1,31 @@
+.background{
+    background-color: pink;
+    position: absolute;
+    bottom: -150px;
+    right: -120px;
+    padding: 15px;
+}
+
+.the{
+    background-color: hotpink;
+    height: 50%;
+    width: 50%;
+    position: relative;
+    margin: 300px;
+    padding: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 3px;
+}
+
+h1{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 8px;
+    text-transform: capitalize;
+}
+
+h2{
+    text-align: left;
+    letter-spacing: 8px;
+    text-transform: capitalize;
+}

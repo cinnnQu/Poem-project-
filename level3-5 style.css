@@ -1,0 +1,40 @@
+.background{
+    background-color: rgb(164, 31, 241);
+    padding: 50px;
+    margin: 80px;
+    border-radius: 20px;
+    
+}
+
+div{
+    float:left;
+    padding:15px;
+
+}
+
+.div1{
+    background: red;
+    border-radius: 20px;
+}
+
+.div2{
+    background: yellow;
+    border-radius: 20px;
+}
+
+.div3{
+    background-color: green;
+    border-radius: 20px;
+}
+
+.text{
+    color: rgb(253, 232, 39);
+}
+
+h1{
+    color: rgb(253, 232, 39);
+}
+
+h2{
+    color: rgb(253, 232, 39);
+}

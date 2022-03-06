@@ -1,0 +1,18 @@
+.the{
+    background-color: #26f7d4;
+    margin: 80px;
+    padding: 20%;
+    color: thistle;
+    border-radius: 50px;
+}
+.hidden{
+    visibility: hidden;
+}
+
+h1{
+    color: lightpink;
+}
+
+h2{
+    color: lightgoldenrodyellow;
+}

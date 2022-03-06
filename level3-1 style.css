@@ -1,0 +1,30 @@
+
+h1 { 
+    padding:40px;
+    text-align: center;
+}
+
+body {
+    
+   
+    text-align: center;
+}
+
+p {
+    
+    padding-right:50px;
+    margin: 70px;
+    text-align: center;
+    
+}
+
+.background {
+    background-color: rgba(255, 20, 145, 0.541); 
+    border: 10px;
+    border-style: dotted;
+    border-width: 20px;
+    border-color: rgb(255, 230, 242);
+    border-radius: 20px;
+    margin: 50px;
+    padding: 50px;
+}

@@ -1,0 +1,19 @@
+
+
+.text{
+    font-family: fantasy;
+    text-align: center;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.background {
+    background-color: rgba(255, 20, 145, 0.541); 
+    border: 10px;
+    border-style: dotted;
+    border-width: 20px;
+    border-color: rgb(255, 230, 242);
+    border-radius: 20px;
+    margin: 50px;
+    padding: 50px;
+}

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Dancing+Script:wght@435;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Dancing+Script:wght@435;700&display=swap');
+
+h1{
+    color: deeppink;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 100px;
+    margin: 10px;
+    padding: 2%;
+    font-size: 1.5cm;
+    text-decoration: underline overline dotted hotpink;
+    text-shadow: 2px 2px lightcyan;
+   
+}
+
+a{
+    display:block inline;
+    color: rgb(94, 119, 122);
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 800;
+    padding: 8px;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgb(0, 255, 255);
+}
+
+a:hover{
+    background-color: deeppink;
+    padding: 8px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+em{
+    background-color: lightskyblue;
+    padding: 10px;
+}
+
+h2{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 2cm;
+    text-transform: capitalize;
+    text-decoration: underline dotted;
+    text-shadow: 5px 5px 20px rgb(33, 255, 4);
+}
+
+#background{
+    text-align: center;
+    letter-spacing: 8px;
+    background-color: rgb(250, 201, 226);
+   
+}
+
+#animation{
+    margin: 0px;
+    border: hotpink dashed 10px;
+    animation: myback 10s infinite;
+}
+
+@keyframes myback{
+   50%{
+    border: 20px dotted lightpink
+   }
+}
+
+
+.level1{
+    background-color: antiquewhite;
+    color: rgb(0, 255, 170);
+    width: 600px;
+    height: 350px;
+    
+    border: 40px solid hotpink;
+    box-shadow: 10px 10px rgb(255, 2, 44);
+    object-position: 400px;
+    line-height: 40px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+.level2{ 
+    background-color: cyan;
+    color: lightpink;
+    width: 600px;
+    height: 350px;
+    border-radius: 100px;
+    border: 40px dotted rgb(200, 133, 255);
+    box-shadow: 10px 10px rgb(255, 130, 151) ;
+    object-position: 400px;
+    line-height: 40px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+.level4{
+    background-color: rgb(252, 255, 101);
+    color: rgb(174, 0, 255);
+    color: lightpink;
+    width: 600px;
+    height: 350px;
+    border-radius: 100px;
+    border: 40px dashed hotpink;
+    box-shadow: 10px 10px rgb(173, 49, 255) ;
+    object-position: 400px;
+    line-height: 40px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+.level3{
+    background-color: rgb(255, 123, 123);
+    color: rgb(0, 153, 255);
+    width: 600px;
+    height: 350px;
+    
+    border: 40px double rgba(184, 255, 213, 0.863);
+    box-shadow: 10px 10px rgb(143, 160, 255) ;
+    object-position: 400px;
+    line-height: 40px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+
+}
+
+.level5{
+    background-color: hotpink;
+    color: lavenderblush;
+    width: 600px;
+    height: 350px;
+    
+    border: 40px groove lightcyan;
+    box-shadow: 10px 10px rgb(138, 222, 255);
+    object-position: 400px;
+    line-height: 40px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}

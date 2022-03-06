@@ -1,0 +1,17 @@
+.background{
+    background-color: pink;
+    position: absolute;
+    bottom: -100px;
+    right: -100px;
+    padding: 15px;
+}
+
+.the{
+    background-color: hotpink;
+    height: 50%;
+    width: 50%;
+    position: relative;
+    margin: 300px;
+    padding: 8px;
+}
+

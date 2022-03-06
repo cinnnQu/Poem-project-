@@ -1,0 +1,58 @@
+.background{
+    background-color: pink;
+    position: absolute;
+    bottom: -100px;
+    right: -100px;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.the{
+    background-color: hotpink;
+    height: 50%;
+    width: 50%;
+    position: relative;
+    margin: 00px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+#back{
+    width: 400px;
+    height: 400px;
+    background-color: paleturquoise;
+    transition: width 2s, height 4s;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+#back:hover{
+    width:800px;
+    height: 800px;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    writing-mode: vertical-lr;
+    text-align: center;
+    font-size: smaller;
+}
+
+em{
+    background-color: bisque;
+    font-size: 0.5cm;
+    font-weight: 900;
+}

@@ -1,0 +1,51 @@
+#text {
+    width: fit-content;
+    height: fit-content;
+    border: 10px dashed peachpuff;
+    animation: mymove 20s infinite;
+    border-radius: 20px;
+    box-shadow: 5px 10px rgb(144, 251, 255);
+    padding: 20px;
+    margin: 50px;
+    font-family: fantasy;
+    text-align: center;
+    font-weight: 900;
+    font-size: larger;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+
+.vertical-text{
+    writing-mode: vertical-lr;
+    background-color: rgb(255, 251, 0);
+    border-radius: 30px;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+    padding: 50px;
+    color: lightpink;
+    font-size: x-small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aquamarine;
+    font-size: 2cm;
+}
+
+.background{
+    opacity: 0.8;
+    background-color: hotpink;
+    margin: 100px;
+    border-radius: 30px;
+}
+
+@keyframes mymove {
+    50%{ border: 30px solid pink}
+    
+}

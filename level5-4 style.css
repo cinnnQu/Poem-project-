@@ -1,0 +1,57 @@
+.the{
+    background-color: #26f7d4;
+    color: thistle;
+    border-radius: 50px;
+    letter-spacing: 4px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.hidden{
+    visibility: hidden;
+}
+
+h1{
+    color: lightpink;
+    font-family: fantasy;
+    font-weight: 700;
+    font-size: 1cm;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+h2{
+    color: lightgoldenrodyellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.background{
+    text-shadow: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#box{
+    width: 150px;
+    height: 150px;
+    background-color: hotpink;
+    position: relative;
+    animation-name: box;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+    animation-timing-function: ease-in-out ;
+    border: #ff116c dotted 20px;
+}
+
+@keyframes box {
+    0% {background-color: aquamarine; left: 0px; top: 0px;}
+    25% {background-color: bisque; left: 700px; top: 0px;}
+    50% {background-color: deeppink; left: 700px; top: 700px;}
+    75% {background-color: rgb(228, 6, 191); left: 0px; top: 700px; }
+    100% {background-color: mediumspringgreen;left: 0px; top: 0px;}
+  
+}

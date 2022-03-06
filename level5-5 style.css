@@ -1,0 +1,74 @@
+span.background{
+    background-color: rgb(164, 31, 241);
+    padding: 50px;
+    margin: 80px;
+    border-radius: 20px;
+    
+}
+
+span{
+    float:left;
+    padding:15px;
+    transition: width 3s;
+}
+
+
+div{
+    width: 10px;
+    height: 10px;
+    transition: width 2s;
+}
+
+#div1{
+    background: red;
+    border-radius: 20px; 
+    transition: width 3s;
+    float:left;
+    padding:15px;
+    transition-timing-function: ease-in-out;
+}
+
+#div2{
+    background: yellow;
+    border-radius: 20px;
+    
+    float:left;
+    padding:15px; 
+    transition: 3s;
+    transition-timing-function: linear;
+}
+
+#div3{
+    background-color: green;
+    border-radius: 20px;
+    float:left;
+    padding:15px;
+    transition: 3s;
+    transition-timing-function: ease;
+}
+
+div:hover{
+    width: 500px;
+   
+}
+
+span.text{
+    color: rgb(253, 232, 39);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    line-height: 10px;
+}
+
+h1{
+    color: rgb(253, 232, 39);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    text-transform: lowercase;
+}
+
+h2{
+    color: rgb(253, 232, 39);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
